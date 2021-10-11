@@ -1,0 +1,38 @@
+.col {
+    height: 40px;
+    background-color: brown;
+}
+
+.col-xs-6{
+    background-color: chartreuse;
+    border: solid 1px black;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media all and (max-width:768px){
+    col-xs-12{
+        width: 100%;
+    }
+}
+
+@media all and (min-width:768px){
+    col-xs-12{
+        width: 100%;
+    }
+}
+
+@media all and (min-width:992px){
+    col-xs-12{
+        width: 100%;
+    }
+} */

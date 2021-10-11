@@ -1,19 +1,53 @@
-.col {
-    height: 40px;
-    background-color: brown;
-}
 
-.col-xs-6{
-    background-color: chartreuse;
+#header div[class^="col-"] {
+    height: 100px;
+    background-color: pink;
     border: solid 1px black;
-    height: 20px;
 }
 
+#jumbotron div[class^="col-"] {
+    height: 300px;
+    background-color:orange;
+    border: solid 1px black;
+}
 
+.container .row h1{
+    text-align: center;
+}
 
+#portfolio div[class^="col-"] {
+    height: 200px;
+    background-color: darkgreen;
+    border: solid 1px black;
+}
 
+#about div[class^="col-"] {
+    height: 300px;
+    background-color: red;
+    border: solid 1px black;
 
+}
 
+#contact div[class^="col-"] {
+    height: 300px;
+    background-color: yellow;
+    border: solid 1px black;
+
+}
+
+#location div[class^="col-"] {
+    height: 120px;
+    background-color: blue;
+    border: solid 1px black;
+
+}
+
+#footer div[class^="col-"] {
+    height: 70px;
+    background-color: grey;
+    border: solid 1px black;
+
+}
 
 
 

@@ -1,6 +1,6 @@
 
 #header div[class^="col-"] {
-    height: 100px;
+    height: 80px;
     background-color: pink;
     border: solid 1px black;
 }
@@ -15,14 +15,38 @@
     text-align: center;
 }
 
+ h2 {
+    text-align: center;
+} 
+  
+
+h2:before, h2:after {
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+}
+
 #portfolio div[class^="col-"] {
     height: 200px;
     background-color: darkgreen;
     border: solid 1px black;
 }
 
+.contenuto{
+    height: 200px;
+    background-color: orange;
+}
+
+.contenuto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 #about div[class^="col-"] {
-    height: 300px;
+    height: 250px;
     background-color: red;
     border: solid 1px black;
 

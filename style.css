@@ -1,15 +1,29 @@
+/* header */
 
 #header div[class^="col-"] {
     height: 80px;
     background-color: rgba(44,62,80,255);
     border: solid 1px black;
 }
-#navbarNavDropdown{
-    background-color: ;
+#navbar {
+    background-color: rgba(44,62,80,255);
+}
+nav .container-fluid .navbar-brand {
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    border: solid 1px white;
 }
 
 
 /* jumbo */
+
 #jumbotron div[class^="col-"] {
     background-color:rgba(26,188,156,255);
     color: white;
@@ -29,7 +43,9 @@ h2:before, h2:after {
     text-decoration:line-through;
 }
 
+
 /* portfolio */
+
 #portfolio div[class^="col-"] {
     height: 200px;
     background-color: white;
@@ -49,7 +65,9 @@ h2:before, h2:after {
     object-fit: cover;
 }
 
+
 /* about */
+
 #about div[class^="col-"] {
     height: 100px;
     background-color: rgba(26,188,156,255);
@@ -61,19 +79,23 @@ h2:before, h2:after {
     background-color:rgba(26,188,156,255);
     color: white;
     border-color: white;
-    margin-top:20px ;
+    margin-top:20px;
+    height: 50%;
 }
 
-/* #about .row{
-    width: 80%;
-    margin: auto;
-} */
+#button{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* contact  */
+
 #contact div[class^="col-"] {
     /* height: 500px;
     background-color: yellow;
     border: solid 1px black; */
+    margin-top: 40px;
 
 }
 
@@ -87,7 +109,10 @@ h2:before, h2:after {
     border: none;
 }
 
+
 /* location */
+
+
 #location div[class^="col-"] {
     height: 140px;
     background-color:rgba(58,84,109,255);
@@ -106,8 +131,13 @@ h7 span{
     border:solid 2px white;
     border-radius: 50%;
 }
+#location h6, h7{
+    margin-top: 20px;
+}
+
 
 /* footer */
+
 #footer div[class^="col-"] {
     height: 70px;
     background-color: rgba(44,62,80,255);
